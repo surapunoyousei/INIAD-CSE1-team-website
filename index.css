@@ -6,6 +6,8 @@ body {
   padding: 0;
 }
 
+/* header ***********************/
+
 #top-header {
   display: flex;
   height: 60px;
@@ -34,4 +36,22 @@ body {
   background-color: var(--button-bg);
   padding: 10px;
   text-align: center;
+}
+
+/* first section ***********************/
+
+#first-section {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+#first-section-img {
+  width: 85%;
+  height: 65%;
+  margin: 3% auto;
+  border-radius: 15px;
+  background-image: url("./assets/computer.jpg");
+  background-size: cover;
+  background-position: center;
 }
