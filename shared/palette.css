@@ -1,7 +1,9 @@
 :root {
   --primary-white: #fff;
+  --font-color-light: #f0f0f0;
   --border-color: #e0e0e0;
   --button-bg: #f0f0f0;
+  --footer-bg: #141414;
 
   --yellow-bg: rgba(255, 166, 0, 0.603);
 }
