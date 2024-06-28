@@ -60,3 +60,13 @@ body {
   font-size: 1em;
   color: var(--font-color-light);
 }
+
+/* section ***********************/
+
+.section {
+  display: flex;
+  height: 70vh;
+  margin: 20px;
+  padding: 10px;
+  margin-top: auto;
+}
