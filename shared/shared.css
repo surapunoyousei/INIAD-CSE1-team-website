@@ -32,6 +32,12 @@ body {
   min-height: 100%;
 }
 
+@media screen and (max-width: 520px) {
+  #nav-links {
+    display: none;
+  }
+}
+
 .navLink {
   margin: auto 10px;
   text-decoration: none;
@@ -69,4 +75,11 @@ body {
   margin: 20px;
   padding: 10px;
   margin-top: auto;
+}
+
+@media screen and (max-width: 520px) {
+  .section {
+    margin: 5px;
+    padding: 5px;
+  }
 }
