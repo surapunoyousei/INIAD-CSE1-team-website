@@ -1,43 +1,5 @@
 @import url("./shared/palette.css");
 
-body {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-/* header ***********************/
-
-#header {
-  display: flex;
-  height: 60px;
-  border-bottom: 1px solid var(--border-color);
-}
-
-#header-title {
-  margin: auto auto auto 15px;
-  font-size: 1.5em;
-  font-weight: bold;
-  justify-content: center;
-  align-items: center;
-}
-
-#nav-links {
-  display: flex;
-  margin: auto 15px;
-  min-height: 100%;
-}
-
-.navLink {
-  margin: auto 10px;
-  text-decoration: none;
-  border-radius: 10px;
-  color: black;
-  background-color: var(--button-bg);
-  padding: 10px;
-  text-align: center;
-}
-
 /* first section ***********************/
 
 .section {
@@ -99,19 +61,4 @@ body {
 
 .article:hover:active {
   transform: scale(1);
-}
-
-/* footer ***********************/
-
-#footer {
-  display: flex;
-  height: 60px;
-  border-top: 1px solid var(--border-color);
-  background-color: var(--footer-bg);
-}
-
-#footer-text {
-  margin: auto 15px  auto auto;
-  font-size: 1em;
-  color: var(--font-color-light);
 }

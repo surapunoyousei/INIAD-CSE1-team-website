@@ -1,5 +1,62 @@
 @import url("./palette.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
+
+/* body ***********************/
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/* header ***********************/
+
+#header {
+  display: flex;
+  height: 60px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+#header-title {
+  margin: auto auto auto 15px;
+  font-size: 1.5em;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav-links {
+  display: flex;
+  margin: auto 15px;
+  min-height: 100%;
+}
+
+.navLink {
+  margin: auto 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  color: black;
+  background-color: var(--button-bg);
+  padding: 10px;
+  text-align: center;
+}
 
 .yellow-bg {
   background-color: var(--yellow-bg) !important;
+}
+
+/* footer ***********************/
+
+#footer {
+  display: flex;
+  height: 60px;
+  border-top: 1px solid var(--border-color);
+  background-color: var(--footer-bg);
+}
+
+#footer-text {
+  margin: auto 15px auto auto;
+  font-size: 1em;
+  color: var(--font-color-light);
 }
