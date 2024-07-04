@@ -1,0 +1,8 @@
+@import url("../shared/blog-template.css");
+
+/* トップに表示される写真 */
+#main-pic {
+  background: url("../assets/recommended-devices.png") no-repeat;
+}
+
+/* ブログの内容のための CSS をこの下に */

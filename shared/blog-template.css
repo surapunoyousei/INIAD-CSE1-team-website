@@ -24,8 +24,8 @@
   box-shadow: 0 0 10px 5px rgba(0, 0, 3, 0.1);
   border-radius: 15px;
   background: url("../assets/recommended-devices.png") no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-size: cover !important;
+  background-position: center !important;
 }
 
 #blog-content {
