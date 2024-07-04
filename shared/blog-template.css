@@ -39,6 +39,16 @@
   }
 }
 
+@media screen and (max-width: 960px) {
+  #container {
+    margin: 0px;
+  }
+
+  #topic {
+    height: 50vh;
+  }
+}
+
 /* sidebar */
 
 #sidebar {
