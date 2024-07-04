@@ -1,0 +1,67 @@
+/** topic */
+
+#main {
+  flex: 3;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#topic {
+  flex-direction: column;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+}
+
+#main-pic {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 3% auto;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 3, 0.1);
+  border-radius: 15px;
+  background: url("../assets/recommended-devices.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#blog-content {
+  display: inline-block;
+  height: inherit !important;
+}
+
+@media screen and (max-width: 520px) {
+  #container {
+    margin: 0px;
+  }
+}
+
+/* sidebar */
+
+#sidebar {
+  flex: 1;
+  width: 100%;
+  max-width: 350px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto 50px auto;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 3, 0.1);
+}
+
+@media screen and (max-width: 960px) {
+  #sidebar {
+    display: none;
+  }
+}
+
+#sidebar-content {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}

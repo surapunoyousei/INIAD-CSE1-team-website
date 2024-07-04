@@ -2,12 +2,6 @@
 
 /* first section ***********************/
 
-.section {
-  display: flex;
-  height: 70vh;
-  width: 100%;
-}
-
 #first-section-img {
   display: flex;
   width: 85%;
