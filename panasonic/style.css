@@ -1,0 +1,5 @@
+@import url("../shared/blog-template.css");
+
+#main-pic {
+  background: url("../assets/Let'sNote製品紹介.png") no-repeat;
+}

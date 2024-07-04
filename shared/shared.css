@@ -8,6 +8,8 @@ body {
   font-optical-sizing: auto;
   margin: 0;
   padding: 0;
+  background-color: var(--primary-white);
+  color: var(--font-color-light);
 }
 
 /* header ***********************/
@@ -32,11 +34,17 @@ body {
   min-height: 100%;
 }
 
+@media screen and (max-width: 520px) {
+  #nav-links {
+    display: none;
+  }
+}
+
 .navLink {
   margin: auto 10px;
   text-decoration: none;
   border-radius: 10px;
-  color: black;
+  color: var(--font-color-header);
   background-color: var(--button-bg);
   padding: 10px;
   text-align: center;
@@ -59,4 +67,21 @@ body {
   margin: auto 15px auto auto;
   font-size: 1em;
   color: var(--font-color-light);
+}
+
+/* section ***********************/
+
+.section {
+  display: flex;
+  height: 70vh;
+  margin: 20px;
+  padding: 10px;
+  margin-top: auto;
+}
+
+@media screen and (max-width: 520px) {
+  .section {
+    margin: 5px;
+    padding: 5px;
+  }
 }

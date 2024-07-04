@@ -1,43 +1,8 @@
-#content {
-  background-image:url("22129655.jpg");
-  color: aliceblue;
+@import url("../shared/blog-template.css");
+
+/* トップに表示される写真 */
+#main-pic {
+  background: url("../assets/recommended-devices.png") no-repeat;
 }
 
-
-.header {
-    display: flex;
-    height: 60px;
-    border-bottom: 1px solid var(--border-color);
-}
-
-.header-title {
-    margin: auto auto auto 15px;
-    font-size: 1.5em;
-    font-weight: bold;
-    justify-content: center;
-    align-items: center;
-}
-
-.nav-links {
-    display: flex;
-    margin: auto 15px;
-    min-height: 100%;
-}
-
-.navLink {
-    margin: auto 10px;
-    text-decoration: none;
-    border-radius: 10px;
-    color: rgb(121, 121, 239);
-    background-color: var(--button-bg);
-    padding: 10px;
-    text-align: center;
-}
-
-.about-Alienware {
-  display: flex;
-}
-
-.myep {
-  display: flex;
-}
+/* ブログの内容のための CSS をこの下に */
