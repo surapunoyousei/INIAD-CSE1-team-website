@@ -30,22 +30,56 @@
 #second-section {
   margin: 3% auto;
   width: 85%;
+  height: auto;
   flex-direction: column;
 }
 
 #latest-articles {
   display: flex;
-  height: 90%;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 .article {
+  display: flex;
+  flex-direction: column;
   border-radius: 15px;
+  height: 400px;
   box-shadow: 0 0 10px 3px rgba(0, 0, 3, 0.1);
   flex: 1;
   margin: 15px;
   padding: 30px;
+}
+
+@media screen and (max-width: 520px) {
+  #container {
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  #container {
+    margin: 0px;
+  }
+
+  .section {
+    height: 50vh;
+  }
+}
+
+/* この CSS は画像設定用です */
+#panasonic-pic {
+  background-image: url("./assets/Let'sNote製品紹介.png") !important;
+}
+
+.article-pic {
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: 100%;
+  flex: 1;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 3, 0.1);
 }
 
 .article:hover {
@@ -55,4 +89,10 @@
 
 .article:hover:active {
   transform: scale(1);
+}
+
+@media screen and (max-width: 520px) {
+  #latest-articles {
+    flex-direction: column;
+  }
 }
