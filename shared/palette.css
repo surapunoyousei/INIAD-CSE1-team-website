@@ -1,6 +1,7 @@
 :root {
   --primary-white: #fff;
-  --font-color-light: #f0f0f0;
+  --font-color-header: #000000;
+  --font-color-light: #262525;
   --border-color: #e0e0e0;
   --button-bg: #f0f0f0;
   --footer-bg: #141414;
@@ -11,6 +12,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --primary-white: #2b2a26 !important;
+    --font-color-header: #eceaea;
     --font-color-light: #ffffff !important;
     --border-color: #363232 !important;
     --button-bg: #484848 !important;
