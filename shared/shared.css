@@ -8,6 +8,8 @@ body {
   font-optical-sizing: auto;
   margin: 0;
   padding: 0;
+  background-color: var(--primary-white);
+  color: var(--font-color-light);
 }
 
 /* header ***********************/
@@ -42,7 +44,7 @@ body {
   margin: auto 10px;
   text-decoration: none;
   border-radius: 10px;
-  color: black;
+  color: var(--font-color-light);
   background-color: var(--button-bg);
   padding: 10px;
   text-align: center;

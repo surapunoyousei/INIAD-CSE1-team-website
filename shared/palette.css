@@ -7,3 +7,15 @@
 
   --yellow-bg: rgba(255, 166, 0, 0.603);
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-white: #2b2a26 !important;
+    --font-color-light: #ffffff !important;
+    --border-color: #363232 !important;
+    --button-bg: #484848 !important;
+    --footer-bg: #1e1e1e !important;
+
+    --yellow-bg: rgba(255, 166, 0, 0.603) !important;
+  }
+}
