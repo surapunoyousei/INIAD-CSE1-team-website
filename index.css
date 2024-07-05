@@ -59,6 +59,17 @@
   #container {
     margin: 0px !important;
   }
+  #first-section {
+    height: 40vh !important;
+  }
+  #first-section-img {
+    width: 100% !important;
+    margin: 10px !important;
+  }
+  #first-section-text {
+    width: 100% !important;
+    margin: 10px !important;
+  }
 }
 
 @media (max-width: 959px) {
