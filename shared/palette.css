@@ -2,10 +2,11 @@
   --primary-white: #fff;
   --font-color-header: #000000;
   --font-color-light: #262525;
+  --font-color-dark: #ffffff;
   --border-color: #e0e0e0;
   --button-bg: #f0f0f0;
   --footer-bg: #141414;
-
+  --footer-color: #ffffff;
   --yellow-bg: rgba(255, 166, 0, 0.603);
 }
 
@@ -14,10 +15,11 @@
     --primary-white: #2b2a26 !important;
     --font-color-header: #eceaea;
     --font-color-light: #ffffff !important;
+    --font-color-dark: #ffffff;
     --border-color: #363232 !important;
     --button-bg: #484848 !important;
     --footer-bg: #1e1e1e !important;
-
+    --footer-color: #ffffff;
     --yellow-bg: rgba(255, 166, 0, 0.603) !important;
   }
 }
