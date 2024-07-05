@@ -69,6 +69,7 @@
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 0 10px 3px rgba(0, 0, 3, 0.1);
+  background-color: var(--article-bg);
 }
 
 .sidebar-article:hover {
