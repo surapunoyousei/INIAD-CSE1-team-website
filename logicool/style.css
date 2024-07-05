@@ -2,7 +2,17 @@
 
 /* トップに表示される写真 */
 #main-pic {
-  background: url("../assets/recommended-devices.png") no-repeat;
+  background: url("../assets/logicool.jpg") no-repeat;
 }
 
 /* ブログの内容のための CSS をこの下に */
+
+
+.sub-title {
+  border-bottom-style:solid;
+  
+}
+
+h1 {
+  color:rgb(51, 204, 204)
+}
