@@ -33,6 +33,14 @@
   height: inherit !important;
 }
 
+.personal-note {
+  background-color: var(--article-bg);
+  border-left: 5px solid #4a4a4a;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
 @media screen and (max-width: 520px) {
   #container {
     margin: 0px;
