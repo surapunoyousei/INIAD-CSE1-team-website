@@ -87,6 +87,14 @@
   background-image: url("./assets/Let'sNote製品紹介.png") !important;
 }
 
+#logicool-pic {
+  background-image: url("./assets/logicool.jpg") !important;
+}
+
+#alienware-pic {
+  background-image: url("./assets/学部実習課題　Alienware 背景.jpg") !important;
+}
+
 .article-pic {
   background-size: cover;
   background-position: center;
